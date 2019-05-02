@@ -46,7 +46,7 @@ class EnergyForm extends Component{
             className='energy-usage-form' 
             onSubmit = {this.handleSumbmit}
         >
-            <h4>Current Energy Alert Threshold:{this.props.energyUsageThreshold} </h4>
+            <h4>Current Energy Alert Threshold:{this.props.energyUsageThreshold} <span style={{fontSize:"12px"}}>KWh</span></h4>
             <label htmlFor="energy-usuage">Set alert threshold (Please enter a value between 1-10):</label>
             <br/>
             <input 

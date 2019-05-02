@@ -27,13 +27,6 @@ class Summary extends Component {
     this.setState({
       data:makeData(5,0.2)
     })
-
-    // this.loadData = setInterval(() => {
-    //   const data = makeData(1.5,0.2);
-    //   this.setState({
-    //     data:data
-    //   })
-    // }, 1000);
   }
 
   componentDidMount(){
@@ -57,7 +50,6 @@ class Summary extends Component {
       }
     }
 
-    console.log("checking...",parseInt(updateTemp(kitchenTemperature,kitchenCurrentTemp).temp1));
     var count=1
     var totalUsuage = 5;
     var kitchenUsageCounter = 0.67;
@@ -71,8 +63,6 @@ class Summary extends Component {
     var livingroomTemp = updateTemp(livingroomTemperature,livingroomCurrentTemp);
     var needUpdate = (kitchenTemp.temp1+bedroomTemp.temp1+bathroomTemp.temp1+livingroomTemp.temp1)!==
                       (kitchenTemp.temp2+bedroomTemp.temp2+bathroomTemp.temp2+livingroomTemp.temp2)
-
-    console.log("needupdate?", needUpdate)
 
     this.updateUsuageInterval = setInterval(()=>{
 
@@ -103,8 +93,6 @@ class Summary extends Component {
             data:usuageData
           })
 
-          console.log("totalUsuage",totalUsuage)   
-
           if(totalUsuage>energyThreshold){
             this.setState({showWarning:true});
           }
@@ -127,17 +115,15 @@ class Summary extends Component {
     },2000)
 
     this.showUsuageInterval=setInterval(
-      ()=>{
-
-        var usuageData = this.state.data;
-        totalUsuage = 5;
-        usuageData.push({date:new Date(),value:d3.randomNormal(5, 0.2)()});
-        usuageData.shift();
-        this.setState({
-          data:usuageData
-        })
-        console.log("totalusage...",totalUsuage)
+        ()=>{
         if(!needUpdate){
+          var usuageData = this.state.data;
+          usuageData.push({date:new Date(),value:d3.randomNormal(5, 0.2)()});
+          usuageData.shift();
+          this.setState({
+            data:usuageData
+          })
+          totalUsuage = 5;
           if(totalUsuage<energyThreshold){
             this.setState({showWarning:false});
           }else{
@@ -146,7 +132,6 @@ class Summary extends Component {
         }
       },1000
     )
-
   }
 
   componentWillUnmount(){
@@ -156,18 +141,18 @@ class Summary extends Component {
 
 
   render() {
-    const {data,kitchenUsuage,bedroomUsuage,bathroomUsuage,livingroomUsuage } = this.state;
+    const {data,kitchenUsuage,bedroomUsuage,bathroomUsuage,livingroomUsuage, showWarning} = this.state;
     var currentUsuage = data[data.length-1].value;
     currentUsuage = Math.round(currentUsuage*100)/100;
     return (
       <div id='summary'>
-            <EnergyUsuageAlert showWarning={this.state.showWarning}/>
+            <EnergyUsuageAlert showWarning={showWarning}/>
             <div id='charts'>
               <div id="line-chart">
                 <LineChart
                     width={800} 
                     height={400}
-                    data = {this.state.data}
+                    data = {data}
                     range={[2,10]}
                     title={'Overall Energy Consumption'}
                     currentUsuage ={currentUsuage}
@@ -195,7 +180,6 @@ class Summary extends Component {
 }
 
 const mapStateToProps=state=>{
-  console.log(state);
   return{
     energyThreshold: state.energyusage.energyUsageThreshold,
     kitchenTemperature: state.temperature.kitchenTemperature,
