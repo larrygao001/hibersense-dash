@@ -1,0 +1,40 @@
+#home{
+  padding-top:180px;
+  height:68vh;
+  font-size: 20px;
+  background-color: rgb(160, 163, 165);
+  text-align: center;
+  /* border:solid red 8px; */
+}
+#nav{
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(49, 53, 71);
+}
+
+.nav-item{
+  padding:30px  40px;
+  /* margin-bottom: 20px; */
+  text-decoration: none;
+  font-weight: 700;
+  color:white;
+}
+
+.nav-item:hover{
+  color:rgb(107, 100, 100);
+}
+
+.logo{
+  width:50px;
+}
+.logo-text{
+  width:185px;
+}
+.footer{
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color: #21AAC3;
+  color:white;
+}
+

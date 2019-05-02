@@ -1,0 +1,78 @@
+
+
+.axisLayer .xAxis .domain,.axisLayer .xAxis .tick>line{
+    display:none
+}
+.axisLayer .yAxis .domain,.axisLayer .yAxis .tick>line{
+    display:none
+}
+.axisLayer .yGrid .domain{
+    display:none
+}
+.axisLayer .yGrid .tick>line{
+    stroke-dasharray:3
+}
+.plotLayer .valueLine{
+    fill:none;
+    stroke-width:1.5;
+    stroke:#00f
+}
+.button{
+    width:100%
+}
+.button button{
+    display:block;
+    width:100px;
+    height:50px;
+    margin:0 auto
+}
+
+.LineChartComponent{
+    width:800px;
+    /* height:800px; */
+    /* border:solid blue 4px; */
+}
+
+
+.labelY{
+    position:relative;
+    top:-210px;
+    left:-300px;
+    margin-left:-200px;
+    text-align:left;
+    transform: rotate(270deg)
+}
+
+#title{
+    text-align:center;
+    padding-left:-20px;
+}
+
+#usuage{
+    text-align: center;
+    padding-left:-20px;
+}
+
+@media only screen and (max-width: 1630px) {
+    #title{
+        padding-left:400px;
+    }
+
+    #usuage{
+        padding-left:400px;
+    }
+
+    .labelY{
+        position:relative;
+        top:-210px;
+        left:-200px;
+        margin-left:-200px;
+        text-align:left;
+        transform: rotate(270deg)
+    }
+
+    .labelX{
+        position:relative;
+        left:200px;
+    }
+}

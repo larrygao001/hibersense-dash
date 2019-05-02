@@ -1,0 +1,63 @@
+.card {
+    margin: 100px 200px 0 100px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: auto;
+    color:white;
+    border-radius: 10px;
+
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(189, 185, 185, 0.2);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1))
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+
+  #home{
+    background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.5)),url("../../assets/images/Banner_People_2048x1365.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:70vh;
+  }
+  
+  #home #welcome{
+    color:white;
+    margin-left: -100px;
+  }
+
+  #home #welcome a:hover{
+    color: rgb(114, 163, 82);
+  }
+
+  #home .button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: -100px;
+    margin-top:20px;
+  }
+  #home .green{
+    background-color: #4CAF50;
+    width: 400px; /* Green */
+    border-radius: 8px;
+  }
+
+  #source{
+    text-decoration:none;
+    color:rgb(133, 175, 163)
+  }
+  #source:hover{
+    color:rgb(36, 134, 105)
+  }

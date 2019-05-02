@@ -1,0 +1,12 @@
+.energy-consumption{
+    padding-left:200px;
+    position:relative;
+    /* border:solid red 8px; */
+    height:auto;
+    width:600px;
+}
+
+.energy-consumption svg{
+    margin-top:80px;
+    margin-left:60px;
+}

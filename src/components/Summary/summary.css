@@ -1,0 +1,105 @@
+#summary{
+    padding-top:180px;
+    /* height:68vh; */
+    font-size: 20px;
+    background-color: rgb(160, 163, 165);
+    /* float:left; */
+  }
+
+#charts{
+    /* float:left; */
+    display:inline-block;
+}
+
+#line-chart{
+    float:left;
+}
+#donut-chart{
+    float:right;
+}
+.headline{
+    text-align:center;
+}
+
+#rooms{
+    display:inline-block;
+    text-align: center;
+    /* margin: 0 auto;
+    padding:0 auto; */
+}
+
+.room{
+    display: inline-block;
+    width: 400px;
+    margin:auto
+}
+
+#summary #line-chart{
+    padding-left:30px;
+}
+
+#summary .labelY{
+    font-size: 16px;
+}
+#summary #line-chart >.labelX{
+    text-align :center
+}
+#status-summary .room{
+    padding-bottom: 30px;
+}
+#status-summary .room h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+#status-summary .room h4{
+    text-align: center;
+}
+
+#status-summary .room .status h5{
+    text-align: center;
+    height:50px;
+}
+
+#status-summary .room .status .idle{
+    position: absolute;
+    display:block;
+    height:50px;
+    bottom: -55px;
+    left: 350px;
+    font-size: 18px;
+}
+
+/* #status-summary .room .waiting span{
+
+    display: none;
+} */
+
+#summary .alert{
+    margin-top:-180px;
+    color:white;
+}
+
+@media only screen and (max-width: 1630px) {
+    /* #charts{
+        text-align: center;
+    } */
+    #line-chart{
+        float:none;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #donut-chart{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #status-summary .room{
+        display:table;
+        width:50%;
+        margin:0 auto;
+        padding:0 auto;
+        float:none;
+    }
+
+  }

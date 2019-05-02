@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed610ba8.chunk.css",
+    "main.js": "/static/js/main.5e10618a.chunk.js",
+    "main.js.map": "/static/js/main.5e10618a.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.d6b63436.chunk.js": "/static/js/2.d6b63436.chunk.js",
+    "static/js/2.d6b63436.chunk.js.map": "/static/js/2.d6b63436.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e95164048e2ceeeccfa333dbe2c4192e.js": "/precache-manifest.e95164048e2ceeeccfa333dbe2c4192e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ed610ba8.chunk.css.map": "/static/css/main.ed610ba8.chunk.css.map",
+    "static/media/home.css": "/static/media/Banner_People_2048x1365.e7e2ce50.jpg",
+    "static/media/bathroom.png": "/static/media/bathroom.a8fd0379.png",
+    "static/media/bedroom.png": "/static/media/bedroom.26931cbf.png",
+    "static/media/kitchen.png": "/static/media/kitchen.1f87c6be.png",
+    "static/media/livingroom.png": "/static/media/livingroom.3ac3e7b7.png",
+    "static/media/logo-white.png": "/static/media/logo-white.c6edcaf0.png",
+    "static/media/setting.png": "/static/media/setting.0eb81c18.png",
+    "static/media/status.png": "/static/media/status.da743c90.png",
+    "static/media/summary.png": "/static/media/summary.4c4b5634.png",
+    "static/media/temperature.png": "/static/media/temperature.ba64e800.png"
+  }
+}

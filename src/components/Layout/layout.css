@@ -1,0 +1,17 @@
+.logo-text{
+    margin-left:20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+.footer a:hover{
+    color:blue;
+}
+
+@media only screen and (max-width:810px){
+    #nav{
+        padding-bottom: 50px;
+    }
+}
