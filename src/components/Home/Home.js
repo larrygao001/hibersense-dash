@@ -15,7 +15,7 @@ export default class Home extends Component {
           <div className="card">
             <div className="container">
               <h4><b>Note</b></h4> 
-              <p>This project is for demonstration purposes only, all data are auto generated to simulated real life data visualization. The time it takes to complete updating temperature is set to 10s for convenience. </p> 
+              <p>This project is for demonstration purposes only, all data are auto generated to simulate real life data visualization. The time it takes to finish updating temperature is set to 10s for convenience. </p> 
 
               <p>Check the <a href="https://github.com/ambitiousbird/hibersense-dash" id="source">source code</a> for more information</p>
             </div>
