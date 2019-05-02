@@ -7,14 +7,14 @@ This project was built for Hibersense for temperature && energy usuage visualizt
 ## Main features
 
 1. Energy usage alert and summary in dymanic charts 
-![summary](https://raw.githubusercontent.com/ambitiousbird/hibersense-dash/master/src/assets/github-readme/summary.png)
+![summary](https://raw.githubusercontent.com/ambitiousbird/hibersense-dash/master/src/assets/images/github-readme/summary.png)
 
 2. Display real time cooling/heating status
-![status](https://raw.githubusercontent.com/ambitiousbird/hibersense-dash/master/src/assets/github-readme/status.png)
+![status](https://raw.githubusercontent.com/ambitiousbird/hibersense-dash/master/src/assets/images/github-readme/status.png)
 3. Temperature status in each room
-![temperature](https://raw.githubusercontent.com/ambitiousbird/hibersense-dash/master/src/assets/github-readme/temperature.png)
+![temperature](https://raw.githubusercontent.com/ambitiousbird/hibersense-dash/master/src/assets/images/github-readme/temperature.png)
 4. Set energy usuage threshold and change room temperature
-![setting](https://raw.githubusercontent.com/ambitiousbird/hibersense-dash/master/src/assets/github-readme/setting.png)
+![setting](https://raw.githubusercontent.com/ambitiousbird/hibersense-dash/master/src/assets/images/github-readme/setting.png)
 
 #### The project uses auto-generated random data to mimic real data
 
