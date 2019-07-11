@@ -1,4 +1,4 @@
-This project was built for Hibersense for temperature && energy usuage visualiztion. Check out the preview page [Here](http://hibersense-dashboard.s3-website.us-east-2.amazonaws.com/). 
+This project was built for Hibersense for temperature && energy usuage visualisation. Check out the preview page [Here](http://hibersense-dashboard.s3-website.us-east-2.amazonaws.com/). 
 
 ## Technology Stack:
 
