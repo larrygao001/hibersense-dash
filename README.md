@@ -22,7 +22,7 @@ This project was built for Hibersense for temperature && energy usuage visualisa
 
 
 
-Run `npm install` to install all the dependencies, and `npm start` to run the application.
+Run `npm install` to install necessary dependencies, and `npm start` to run the application.
 
 <hr/>
 
