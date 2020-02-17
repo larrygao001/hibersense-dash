@@ -1,4 +1,4 @@
-This project was built for Hibersense for temperature && energy usuage visualisation. Check out the preview page [Here](http://hibersense-dashboard.s3-website.us-east-2.amazonaws.com/). (The live link is currently unavailable because a lack of budget and I have closed the EC2 instance that runs this application, it will be resumed once a cheaper alternative solution is found.)
+This project was built for Hibersense for temperature && energy usuage visualisation. Check out the preview page [Here](http://hibersense-dashboard.s3-website.us-east-2.amazonaws.com/). (``The live link is currently unavailable because a lack of budget and I have closed the EC2 instance that runs this application, it will be resumed once a cheaper alternative solution is found.``)
 
 ## Technology Stack:
 
